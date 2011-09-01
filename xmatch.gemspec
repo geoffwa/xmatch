@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
 
   gem.version = Matcher::VERSION.dup
   gem.platform = Gem::Platform::RUBY
-  gem.add_runtime_dependency("nokogiri", "~> 1.4.2")
+  gem.add_runtime_dependency("nokogiri", "~> 1.5.0")
 
   gem.add_development_dependency("bundler", "~> 1.0")
   gem.add_development_dependency("rspec", "~> 1.3.0")
